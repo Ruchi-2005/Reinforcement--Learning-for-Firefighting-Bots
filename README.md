@@ -7,27 +7,26 @@ Set on a 10x10 grid, the agents navigate the area to identify fires, collect wat
 # PYTHON PACKAGES
 
 1.	numpy
-
 Used for efficient array handling and mathematical operations.
 Helps represent and manipulate the grid used in pathfinding.
-2.	pygame
 
+2.	pygame
 Handles 2D graphics, animations, user inputs, and game loop control.
 Used to visualize the grid, fire animation, and pathfinding in real-time.
-3.	 random
 
+3.random
 Generates random numbers and choices.
 Used to randomize fire spread and starting positions.
-4.	PIL (Pillow)
 
+4.PIL (Pillow)
 Supports image manipulation and animation.
 Used to resize and display animated GIFs for fire effects.
-5.	 io, os
 
+5.io, os
 Provides tools for file and system-level operations.
 Used for managing file paths and loading resources.
-6.	 heapq
 
+6.heapq
 Implements an efficient priority queue.
 Used to optimize node selection in the A* algorithm.
 
