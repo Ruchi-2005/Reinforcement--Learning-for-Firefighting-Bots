@@ -30,4 +30,30 @@ Used for managing file paths and loading resources.
 Implements an efficient priority queue.
 Used to optimize node selection in the A* algorithm.
 
+# ALGORITHM USED
+1. Q-Learning (Reinforcement Learning)
+•	Actions:
+o	0: Move to extinguish fire
+o	1: Move to refill water
+o	2: Pass water to another agent
+•	Learning Parameters:
+o	learning_rate = 0.2
+o	discount_factor = 0.9
+o	exploration_rate = 0.8 (decays over time)
+•	Rewards:
+o	High reward for extinguishing fire
+o	Moderate reward for helping others or refilling
+o	Small penalty for useless movement
+2. A Pathfinding*
+•	Custom heuristic:
+o	Manhattan distance
+o	Obstacle penalty to avoid paths close to obstacles
+•	Used to move agents toward fire or water
+3. Fire Spread (Stochastic Simulation)
+•	Fire spreads to adjacent empty cells based on a probability FIRE_SPREAD_PROB = 0.35.
+4. Chain-of-Help / Resource Passing
+•	Agents can pass water to each other if they are adjacent and one is low on water.
+•	Enables coordination without central control.
+
+
 
