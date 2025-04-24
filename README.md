@@ -56,4 +56,27 @@ o	Obstacle penalty to avoid paths close to obstacles
 •	Enables coordination without central control.
 
 
+# APPLICATION
+•	Domain: Artificial Intelligence, Multi-Agent Systems, Reinforcement Learning
+•	Nature: A simulation-based application for:
+o	Firefighting using multiple AI agents.
+o	Coordination using Q-learning, pathfinding, and resource sharing.
+
+
+# OUTCOME
+•	A 10x10 grid simulation where agents:
+	Navigate towards fire tiles and extinguish them.
+	Refill water from the water tank row.
+	Share water with nearby agents if they are dehydrated.
+	Avoid obstacles while navigating.
+•	Fires may spread over time unless extinguished.
+•	When all fires are extinguished, the simulation ends with a message:
+"All fires extinguished!!"
+•	Visualization includes:
+	Agent icons
+	Fire animation (GIF)
+	Obstacle and water tank graphics
+
+
+
 
